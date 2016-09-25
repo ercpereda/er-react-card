@@ -7,8 +7,6 @@ const Card = (props) => {
     [styles.rounded]: props.rounded
   });
 
-  console.log(cardClass);
-
   return (
     <div className={cardClass}>
       <img src={props.img} alt="Avatar" />
